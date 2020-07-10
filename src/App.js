@@ -1,26 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+import Navbar from "./component/Header/Navbar"
+import Main  from "./component/Main/main"
+import Footer from "./component/Footer/Footer"
+
+import IPhone from "./component/Pages/IPhone/IPhone"
+import Error from "./component/Pages/Error/Error"
+import Mac from './component/Pages/Mac/Mac';
+import Ipad from './component/Pages/Ipad/Ipad';
+import Watch from './component/Pages/Watch/Watch'
+import Tv from './component/Pages/Tv/Tv'
+import Music from './component/Pages/Music/Music'
+import Productpage from './component/Pages/Productpage/Productpage'
+import Youtube from "./component/Youtube/Youtube"
+
+class App extends Component {
+  render(){
+    return (
+      <Router>
+        <div>
+          <Navbar/>
+            <Switch>
+               <Route path="/" exact component={Main}/>
+               <Route path="/iphone" exact component={IPhone}/>
+               <Route path="/mac" exact component={Mac}/>
+               <Route path="/ipad" exact component={Ipad}/>
+               <Route path="/watch" exact component={Watch}/>
+               <Route path="/tv" exact component={Tv}/>
+               <Route path="/music" exact component={Music}/>
+               <Route path="/iphone/:pid" exact component={Productpage}/>
+               <Route path="/" component={Error}/>
+
+            </Switch>
+             <Youtube/> 
+          <Footer/>
+        </div>
+      </Router>
+
+    );
+  }
+
 }
 
 export default App;
