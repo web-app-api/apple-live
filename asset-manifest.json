@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/apple-live/static/css/main.cd19ba8e.chunk.css",
-    "main.js": "/apple-live/static/js/main.67789fb9.chunk.js",
-    "main.js.map": "/apple-live/static/js/main.67789fb9.chunk.js.map",
+    "main.js": "/apple-live/static/js/main.bf78b338.chunk.js",
+    "main.js.map": "/apple-live/static/js/main.bf78b338.chunk.js.map",
     "runtime-main.js": "/apple-live/static/js/runtime-main.f7106e14.js",
     "runtime-main.js.map": "/apple-live/static/js/runtime-main.f7106e14.js.map",
     "static/js/2.44f227f3.chunk.js": "/apple-live/static/js/2.44f227f3.chunk.js",
     "static/js/2.44f227f3.chunk.js.map": "/apple-live/static/js/2.44f227f3.chunk.js.map",
     "index.html": "/apple-live/index.html",
-    "precache-manifest.1f1ac16a6eaf4f4e570dfd4eafe35043.js": "/apple-live/precache-manifest.1f1ac16a6eaf4f4e570dfd4eafe35043.js",
+    "precache-manifest.ffdc36a459c468afde840399fe13bc3a.js": "/apple-live/precache-manifest.ffdc36a459c468afde840399fe13bc3a.js",
     "service-worker.js": "/apple-live/service-worker.js",
     "static/css/main.cd19ba8e.chunk.css.map": "/apple-live/static/css/main.cd19ba8e.chunk.css.map",
     "static/js/2.44f227f3.chunk.js.LICENSE.txt": "/apple-live/static/js/2.44f227f3.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.f7106e14.js",
     "static/js/2.44f227f3.chunk.js",
     "static/css/main.cd19ba8e.chunk.css",
-    "static/js/main.67789fb9.chunk.js"
+    "static/js/main.bf78b338.chunk.js"
   ]
 }
